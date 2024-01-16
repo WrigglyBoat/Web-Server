@@ -1,0 +1,4 @@
+node_modules 
+chainTernary.txt
+This is included so its ignored in github because its alot of data.
+You can get this info by typing npm install and will install modules you need 

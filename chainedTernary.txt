@@ -1,0 +1,14 @@
+whatever the result is saved at let filepath.
+: is the condition || gloried if else statements
+if content type is html and req url is a / then ? is the filepath
+
+if content type is html and req url at the end is a / then you get views and 
+    the req url which specifies the sub directory file 
+
+if content type is just html then you look at what was request in the views 
+    folder
+
+if non is true then you use __dirname and req url to find other file types thats
+    specified in the req url
+
+final ':' works as a default
