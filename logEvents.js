@@ -15,7 +15,7 @@ const logEvents = async(message) => {
             fs.mkdir('./logs',(err) => {
                 if(err) throw err;
                 console.log('Directory Made');
-            })
+            });
         }
         await fsPromise.appendFile(path.join(__dirname,'logs', 'eventlog.txt'),logItem+"\n");
     } catch (err){
